@@ -16,7 +16,8 @@ namespace Cafex
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            FormLogin formlogin = new FormLogin();
+            Application.Run(formlogin);
         }
     }
 }
